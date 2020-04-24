@@ -8,8 +8,8 @@ import Counter from './Components/Counter';
 function App() {
   return (
     <div className="App">
-      {/* <Greeting Name="Balaji"/>
-      <Welcome Name="Lakshya"/> */}
+      <Greeting Name="Balaji"/>
+      <Welcome Name="Lakshya"/>
       <Message/>
       <Counter/>
     </div>
