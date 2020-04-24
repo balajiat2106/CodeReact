@@ -5,15 +5,17 @@ import Welcome from './Components/Welcome';
 import Message from './Components/Message';
 import Counter from './Components/Counter';
 import EventBinder from './Components/EventBinder';
+import ParentComponent from './Components/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      {/* <Greeting Name="Balaji"/>
+      {/* {/* <Greeting Name="Balaji"/>
       <Welcome Name="Lakshya"/>
       <Message/>
       <Counter/> */}
-      <EventBinder/>
+      {/* <EventBinder/>  */}
+      <ParentComponent/>
     </div>
   );
 }
