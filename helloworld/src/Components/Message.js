@@ -13,7 +13,8 @@ class Message extends Component {
     ClickSubscribe(){
         this.setState({
             DisplayMessage:"Thank you"
-        })
+                            })
+        console.log(this.state.DisplayMessage)
     }
 
     render() {
