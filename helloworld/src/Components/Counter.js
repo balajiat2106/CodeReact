@@ -12,8 +12,8 @@ export class Counter extends Component {
 
     Increment() {
         this.setState({
-            count: this.state.count + 1
-        },()=>{console.log(this.state.count+1)})
+            count: this.state.count + 5
+        },()=>{console.log(this.state.count+10)})
     }
     render() {
         return (
