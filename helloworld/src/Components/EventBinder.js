@@ -11,7 +11,7 @@ class EventBinder extends Component {
 
   ClickMe = () => {
     this.setState({
-      Message: "Good night",
+      Message: "Good evening",
     });
   };
 
