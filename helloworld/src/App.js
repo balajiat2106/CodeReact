@@ -6,6 +6,7 @@ import Message from './Components/Message';
 import Counter from './Components/Counter';
 import EventBinder from './Components/EventBinder';
 import ParentComponent from './Components/ParentComponent';
+import ConditionalRendering from './Components/ConditionalRendering';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Message/>
       <Counter/> */}
       {/* <EventBinder/>  */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <ConditionalRendering/>
     </div>
   );
 }
