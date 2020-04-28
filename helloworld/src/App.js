@@ -7,6 +7,7 @@ import Counter from './Components/Counter';
 import EventBinder from './Components/EventBinder';
 import ParentComponent from './Components/ParentComponent';
 import ConditionalRendering from './Components/ConditionalRendering';
+import List from './Components/List';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <Counter/> */}
       {/* <EventBinder/>  */}
       {/* <ParentComponent/> */}
-      <ConditionalRendering/>
+      {/* <ConditionalRendering/> */}
+      <List/>
     </div>
   );
 }
