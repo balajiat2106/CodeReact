@@ -1,13 +1,17 @@
 import React, { Component } from "react";
 import ComplexList from "./ComplexList";
+import "./styles.css";
 
 class List extends Component {
   render() {
+    const styleInline = {
+      color: "orange",
+      fontSize: "50px",
+    };
     const newArray = ["Balaji", "Uma", "Lakshya"];
     const formattedArray = newArray.map((name, index) => (
       <h2>
-        {index}-
-        {name}
+        {index}-{name}
       </h2>
     ));
     const personList = [
@@ -20,8 +24,8 @@ class List extends Component {
     ));
     return (
       <div>
-        <div>{formattedArray}</div>
-        <div>{persons}</div>
+        <div className="font-big">{formattedArray}</div>
+        <div style={styleInline}>{persons}</div>
       </div>
     );
   }
