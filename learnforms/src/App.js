@@ -10,7 +10,6 @@ function App() {
       <BasicForm/>
       <LifeCycleMount/>
       <LifeCycleUpdate/>
-      <PureComponent/>
     </div>
   );
 }
