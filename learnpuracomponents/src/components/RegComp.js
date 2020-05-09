@@ -1,26 +1,19 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class RegComp extends Component {
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-             
-        }
-    }
-    
-    render() {
-        console.log("regular")
-        return (
-            <div>
-                Regular
-                {this.props.name}
-            </div>
-        )
-    }
+function RegComp({name}) {
+    console.log("Regular, but memo")
+    return (
+        <div>
+            Regular, but memo
+            {name}
+        </div>
+    )
 }
 
-export default RegComp
+export default React.memo(RegComp)
+
+
+
 
 
 
