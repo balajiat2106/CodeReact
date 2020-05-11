@@ -3,6 +3,7 @@ import ParentComp from './components/ParentComp';
 import Ref from './components/Ref';
 import ClasswithRef from './components/ClasswithRef';
 import ParentRef from './components/ParentRef';
+import PortalDemo from './components/PortalDemo';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <ParentComp/> */}
       {/* <Ref/> */}
       {/* <ClasswithRef/> */}
-      <ParentRef/>
+      {/* <ParentRef/> */}
+      <PortalDemo/>
     </div>
   );
 }
