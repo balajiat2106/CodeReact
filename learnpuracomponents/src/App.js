@@ -1,9 +1,10 @@
-import React from 'react';
-import ParentComp from './components/ParentComp';
-import Ref from './components/Ref';
-import ClasswithRef from './components/ClasswithRef';
-import ParentRef from './components/ParentRef';
-import PortalDemo from './components/PortalDemo';
+import React from "react";
+import ParentComp from "./components/ParentComp";
+import Ref from "./components/Ref";
+import ClasswithRef from "./components/ClasswithRef";
+import ParentRef from "./components/ParentRef";
+import PortalDemo from "./components/PortalDemo";
+import Hero from "./components/Hero";
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
       {/* <Ref/> */}
       {/* <ClasswithRef/> */}
       {/* <ParentRef/> */}
-      <PortalDemo/>
+      {/* <PortalDemo/> */}
+      <Hero heroName="Balaji" />
+      <Hero heroName="Sanjeev" />
+      <Hero heroName="Joker" />
     </div>
   );
 }
