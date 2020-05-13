@@ -24,6 +24,9 @@ function App() {
       <ErrorBoundary>
         <Hero heroName="Joker" />
       </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Hello" />
+      </ErrorBoundary>
     </div>
   );
 }
