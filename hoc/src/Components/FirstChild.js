@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import UpdatedComponent from "./withCounter";
 
 class FirstChild extends Component {
   constructor(props) {
@@ -19,10 +20,10 @@ class FirstChild extends Component {
     const { count } = this.state;
     return (
       <div>
-        <button onClick={this.buttonClickHandler}>Clicked {count} times</button>
+        <button onClick={this.buttonClickHandler}> {this.props.name} Clicked {count} times</button>
       </div>
     );
   }
 }
 
-export default FirstChild;
+export default UpdatedComponent(FirstChild);

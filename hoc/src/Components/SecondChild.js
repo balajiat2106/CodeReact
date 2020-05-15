@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import UpdatedComponent from "./withCounter";
 
 class SecondChild extends Component {
   constructor(props) {
@@ -18,10 +19,12 @@ class SecondChild extends Component {
     const { count } = this.state;
     return (
       <div>
-        <h2 onMouseOver={this.mouseOver}>Hovered {count} times</h2>
+        <h2 onMouseOver={this.mouseOver}>
+          {this.props.name} Hovered {count} times
+        </h2>
       </div>
     );
   }
 }
 
-export default SecondChild;
+export default UpdatedComponent(SecondChild);
