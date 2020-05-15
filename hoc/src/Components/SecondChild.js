@@ -15,7 +15,7 @@ class SecondChild extends Component {
     }),
   ];
   render() {
-      const {count}=this.state
+    const { count } = this.state;
     return (
       <div>
         <h2 onMouseOver={this.mouseOver}>Hovered {count} times</h2>

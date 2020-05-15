@@ -16,7 +16,7 @@ class FirstChild extends Component {
   };
 
   render() {
-    const {count} = this.state;
+    const { count } = this.state;
     return (
       <div>
         <button onClick={this.buttonClickHandler}>Clicked {count} times</button>
