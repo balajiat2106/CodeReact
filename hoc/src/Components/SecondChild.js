@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import UpdatedComponent from "./withCounter";
+import withCounter from "./withCounter";
 
 class SecondChild extends Component {
   render() {
@@ -14,4 +14,4 @@ class SecondChild extends Component {
   }
 }
 
-export default UpdatedComponent(SecondChild);
+export default withCounter(SecondChild);
