@@ -6,12 +6,10 @@ class FirstChild extends Component {
     const { count, incrementCount } = this.props;
     return (
       <div>
-        <button onClick={incrementCount}>
-          Clicked {count} times
-        </button>
+        <button onClick={incrementCount}>{this.props.name} Clicked {count} times</button>
       </div>
     );
   }
 }
 
-export default withCounter(FirstChild);
+export default withCounter(FirstChild, 5);

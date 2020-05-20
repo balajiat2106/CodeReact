@@ -6,8 +6,8 @@ import SecondChild from "./Components/SecondChild";
 function App() {
   return (
     <div className="App">
-      <FirstChild />
-      <SecondChild />
+      <FirstChild name="Balaji"/>
+      <SecondChild name="Sanjeev"/>
     </div>
   );
 }
